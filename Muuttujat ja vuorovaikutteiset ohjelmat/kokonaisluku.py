@@ -1,17 +1,10 @@
 # Kysytään käyttäjältä kolme kokonaislukua
-luku1_str = input("Syötä ensimmäinen kokonaisluku: ")
-luku2_str = input("Syötä toinen kokonaisluku:")
-luku3_str = input("Syötä kolmas kokonaisluku:")
-luku1 = int(luku1_str)
-luku2 = int(luku2_str)
-luku3 = int(luku3_str)
 
-# Lasku
-summa = luku1 + luku2 + luku3
-tulo = luku1 * luku2 * luku3
-keskiarvo = summa / 3
+a = int(input("Anna ensimmäinen luku: "))
+b = int(input("Anna toinen luku: "))
+c = int(input("Anna kolmas luku: "))
 
 # Tulostus
-print("Lukujen summa on: " + str(summa))
-print("Lukujen tulo on: " + str(tulo))
-print("Lukujen keskiarvo on: " + str(keskiarvo))
+print(f"Lukujen summa on {a + b + c}")
+print(f"Lukujen tulo on {a * b * c}")
+print(f"Lukujen keskiarvo on {(a + b + c)/3}")
