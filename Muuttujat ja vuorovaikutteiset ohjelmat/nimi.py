@@ -1,2 +1,2 @@
-name= input("Mikä on nimesi?")
-print(f"Hauska tavata {name}.")
+nimi= input("Mikä on nimesi?")
+print("Hauska tavata + nimi.")

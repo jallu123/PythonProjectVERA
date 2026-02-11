@@ -1,17 +1,20 @@
 # Kysytään syötteet
-leiviskat = float(input("Anna leiviskät.\n"))
-naulat = float(input("Anna naulat. \n"))
-luodit = float(input("Anna luodit.\n"))
+leiviskat = float(input("Anna leiviskät: "))
+naulat = float(input("Anna naulat: "))
+luodit = float(input("Anna luodit: "))
 
-# Muunnetaan yksiköt
-luodit_yhteensa = (leiviskat * 20 * 32) + (naulat * 32) + luodit
-grammat_yhteensa = luodit_yhteensa * 13.3
-kilogrammat = int(grammat_yhteensa // 1000)
-grammat = grammat_yhteensa % 1000
+# Muunnokset
+luoti_grammoina = 13.3
+naula_grammoina = 32 * luoti_grammoina
+leiviskat_grammoina = 20 * naula_grammoina
+
+massa_grammoina = (leiviskat * leiviskat_grammoina + naulat * naula_grammoina + luodit * luoti_grammoina)
+
+kilot = int(massa_grammoina // 1000)
+grammat = massa_grammoina % 1000
 
 # Tulostus
-print("\nMassa nykymittojen mukaan: ")
-print(f"{kilogrammat} kilogrammaa ja {grammat:.2f} grammaa.")
+print(f"{kilot} kilogramma ja {grammat} grammaa.")
 
 
 
