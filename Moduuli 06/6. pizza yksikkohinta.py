@@ -23,9 +23,9 @@ pizza2 = pizzan_yksikkohinta(halkaisija2, hinta2)
 # Verrataan
 
 if pizza1 < pizza2:
-    print("Parempi vastine rahalle on toka pizza")
-else:
     print("Parempi vastine rahalle on eka pizza")
+else:
+    print("Parempi vastine rahalle on toka pizza")
 
 
 
