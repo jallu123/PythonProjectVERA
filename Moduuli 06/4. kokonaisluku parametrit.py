@@ -10,7 +10,7 @@ def laske_summa(lista):
 
 # Testausta varten pääohjelma:
 
-lista = [10, 20, 30, 40, 50, 100]
+lista = [10, 20, 30, 40, 67, 100]
 
 tulos = laske_summa(lista)
 

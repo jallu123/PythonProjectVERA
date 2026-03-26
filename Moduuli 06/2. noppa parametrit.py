@@ -1,6 +1,5 @@
 # Edellisen tehtävän funktio muokataan:
-# Funktio saa parametrinaan nopan tahkojen yhteismäärän
-# (käyttäjän asettama)
+# Funktio saa parametrinaan nopan tahkojen yhteismäärän (käyttäjän asettama)
 
 import random
 
